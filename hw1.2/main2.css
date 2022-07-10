@@ -1,0 +1,66 @@
+.mainblock{
+    background: whitesmoke;
+    height: 320px;
+    width: 720px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.carts{
+    border: 1px solid grey;
+    height: 300px;
+    width: 200px;
+
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.hig{
+
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.hig > h4{
+    margin: 0;
+
+}
+
+
+
+.lor{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+
+    color: #545454;
+}
+
+.but{
+    width: 120px;
+    height: 35px;
+
+    border: 1px solid gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but > p{
+    margin: 0px;
+
+}
